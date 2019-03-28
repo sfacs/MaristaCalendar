@@ -1,0 +1,17 @@
+html {
+    font-family: 'Roboto';
+}
+
+.day h2 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+    text-align: center;
+}
+
+.day {
+    display: inline-block;
+    width: 20%;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}

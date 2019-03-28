@@ -1,0 +1,9 @@
+{% if events %}
+    <ul>
+    {% for event in events %}
+        <li>[ {{ event.date|date:'l d/m/Y' }} ] <a href="/events/{{ event.eventId }}/hide/">{{ event.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
